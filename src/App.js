@@ -1,6 +1,6 @@
 import React from 'react'
 import io from 'socket.io-client'
-const url = 'http://localhost:1717/'
+const url = 'http://localhost:1947/'
 
 const App = () => {
   const socket = io(url)
