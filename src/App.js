@@ -1,6 +1,6 @@
 import React from 'react'
 import io from 'socket.io-client'
-const url = 'http://localhost:1947/'
+const url = 'https://socket-server-mwbe.onrender.com'
 
 const App = () => {
   const socket = io(url)
