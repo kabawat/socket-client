@@ -22,7 +22,7 @@ const Delete = ({ isDelete, setIsDelete, work }) => {
             </Modal.Body>
             <Modal.Footer>
                 <Button onClick={() => setIsDelete(false)}>Cancel</Button>
-                <Button variant="danger" onClick={deleteHandle}>Delete 1</Button>
+                <Button variant="danger" onClick={deleteHandle}>Delete</Button>
             </Modal.Footer>
         </Modal>
     )
